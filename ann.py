@@ -19,7 +19,7 @@ theta_2 = [0.01]
 bias = [1,1,1,1]
 x = num_to_learn
 #expected output
-y = [0,1,1,1]
+y = [0,0,0,1]
 #hidden one 
 h_1 = np.dot(x,theta_1)
 #hypothesis, predicted output
